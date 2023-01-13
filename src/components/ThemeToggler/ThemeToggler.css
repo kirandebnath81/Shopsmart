@@ -1,0 +1,24 @@
+.themeToggler {
+  width: 4.3rem;
+  height: 1.8rem;
+  border-radius: 10px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: var(--primary-background-color);
+  box-shadow: 1px 0px 2px 1.5px rgba(0, 0, 0, 0.8);
+  cursor: pointer;
+  transition: var(--background-transition);
+}
+
+.themeToggler__dark {
+  justify-content: flex-end;
+  box-shadow: -1px 0px 2px 2px rgb(255, 255, 255);
+}
+
+.themeToggler__circle {
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
+  background-color: var(--primary-text-color);
+}

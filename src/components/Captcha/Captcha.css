@@ -1,0 +1,47 @@
+.captcha__wrapper {
+  margin: 2.2rem 0;
+}
+
+.captcha__text-container {
+  width: 100%;
+  height: 3.8rem;
+  border-radius: 0.5rem;
+  border: 1px dashed var(--border-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.captcha__text {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  column-gap: 2rem;
+}
+
+.captcha__char {
+  font-size: 2rem;
+  color: var(--primary-text-color);
+  text-decoration: line-through;
+}
+
+/* reset btn */
+
+.captcha__reset-btn {
+  padding: 0 1rem;
+  font-size: 1.5rem;
+  border-left: 1px dashed var(--border-color);
+  height: 100%;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  color: var(--primary-text-color);
+  background-color: var(--secondary-color);
+  transition: var(--background-transition);
+  user-select: none;
+}
+
+.captcha__reset-btn:hover {
+  background-color: var(--secondary-btn-hover-color);
+}
