@@ -1,3 +1,6 @@
+
+# Shopsmart
+
 It's a sign up form with captcha feature.
 
 ## Install and Run Locally
@@ -8,8 +11,9 @@ It's a sign up form with captcha feature.
 
 ## Features-
 
-- Uniquie captcha
+- Unique captcha
 - Reset captcha
+- Link Previews
 - Dark mode
 - Fully Responsive
 
